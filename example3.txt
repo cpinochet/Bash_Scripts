@@ -1,0 +1,12 @@
+
+Name                                          Status          CopyQueue ReplayQueue LastInspectedLogTime   ContentIndex
+                                                              Length    Length                             State
+----                                          ------          --------- ----------- --------------------   ------------
+Mailbox Database System 1\CLSAEXMBP01         Dismounted      0         0                                  Healthy
+BD_Gerentes\CLSAEXMBP01                       Mounted         0         0                                  Healthy
+BD_CuentasdeServicio\CLSAEXMBP01              Dismounted      0         0                                  Healthy
+BD_TI\CLSAEXMBP01                             Mounted         0         0                                  Healthy
+BD_Jefaturas\CLSAEXMBP01                      Mounted         0         0                                  Healthy
+BD_Servicioalcliente\CLSAEXMBP01              Mounted         0         0                                  Healthy
+BD_AdmFFVV\CLSAEXMBP01                        Healthy         0         0                                  Healthy
+Prueba\CLSAEXMBP01                            Mounted         0         0                                  Healthy
