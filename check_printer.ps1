@@ -1,0 +1,2 @@
+$Impresora=Get-WMIObject Win32_Printer -ComputerName . |  Where-Object {$_.Name -like '*HP*'} | Where-Object {$_.Default } | Where-Object {$_.Workoffline -or ($_.PrinterState -ne '0')}
+if ($Impresora) {"WARNING! The Printer has a problem.";exit 1} else {"OK! Printer is idle.";exit 0}
