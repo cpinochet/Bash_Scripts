@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# This script us used in staffing prod server to create backups od the Postgres DB (INTERVIEWS)
-
-#sudo su - postgres
 echo ""
 echo "deleting old backup..."
 #rm -f postgres_backup*.tar.gz
