@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# This script is used in the staffing prod server to move the Database backup .tar.gz files created by anoter script to a remote location.
-# there is no hard coded passwords to mount the remote folder, it decripts this password from an encrypted file.
+# This script is used to move the Database backup .tar.gz files created by anoter script to a remote location.
+# there is no hard coded passwords to mount the remote folder, it decripts a password from an encrypted file.
 # and deletes the temporal decripted file before exiting.
 
 cd /var/lib/postgresql
