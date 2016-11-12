@@ -23,10 +23,10 @@ echo "HEADER" >> $VVFILE
 while read line           
 do           
 	#echo -e $line
-	tok_str=${line:7:29}  # 4479942989665755
-	cert_ant_str=${line:36:28} # 0000000000000000250000000000
-	cod_str=${line:64:12} # DLXR4JM3K4N1
-	exp_date=${line:76:8} # 20160630
+	tok_str=${line:7:29}  
+	cert_ant_str=${line:36:28} 
+	cod_str=${line:64:12} 
+	exp_date=${line:76:8} 
 	cyc_date=${line:84:8}
 	#echo $cyc_date
 	echo $tok_str"|"$cert_ant_str"|"$cod_str"|"$exp_date"|"$cyc_date >> $VVFILE
