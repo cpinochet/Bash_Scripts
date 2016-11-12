@@ -4,7 +4,7 @@
 echo ""
 # Obtaining files from server via sftp.
 echo "Obtaining GPG files from sftp server."
-sftp cpinochet@172.17.101.167:encrip/*.gpg
+sftp cpinochet@172.0.0.10:encrip/*.gpg
 # moving files to encript folder
 mv *.gpg encrip/
 echo ""
